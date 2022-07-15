@@ -349,7 +349,7 @@ export default function Home() {
             You have:
             <br />
             {/* Convert the BigNumber to string using the formatEther function from ethers.js */}
-            {cdBalance ? utils.formatEther(cdBalance) : utils.formatEther(0)} Crypto Dev Tokens
+            {utils.formatEther(cdBalance)} Crypto Dev Tokens
             <br />
             {utils.formatEther(ethBalance)} Ether
             <br />
